@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .circle-photo {
+            width: 255px;
+            height: 255px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 20px auto;
+	<h1>I'm DHANISH HASAN KHAN</h1>
+	<p1> ELECTRICAL & ELECTRONICS ENGINEER</P1>
+        }
+        .circle-photo img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+        .button-container {
+            margin: 100px auto;
+        }
+        .project-buttons {
+	background-color: #6495ed;
+            margin-right: 10px;
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .project-description {
+            margin: 20px auto;
+            max-width: 600px;
+            text-align: left;
+        }
+        .video-container {
+            margin: 20px auto;
+            max-width: 600px;
+        }
+        .certificate {
+            margin: 20px auto;
+            max-width: 600px;
+        }
+        .certificate-heading {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+	<h1>I'm DHANISH HASAN KHAN</h1>
+	<p1> ELECTRICAL & ELECTRONICS ENGINEER</P1>
+
+		<hr>
+		<marquee direction="left">"HAVE A GREAT DAY!...   THANK YOU FOR TAKING THE TIME TO REVIEW THIS PAGE..."</marquee>
+		<hr>
+    <div class="circle-photo">
+        <img src="C:\Users\ELCOT\Desktop\project\profile-pic.png" alt="Your Full Photo">
+	
+    </div>
+<h2>....HERE ARE SOME PROJECTS WHICH I HAVE DONE....</h2>
+
+    <div class="button-container">
+        <button class="project-buttons" onclick="showProject1()">    project 1:  INNOVATIVE PATH FOR AMBULANCE  </button>
+        <br><button class="project-buttons" onclick="showProject2()">Project 2:MULTI-PURPOSE AUTOMATED SERVICE ROVER</button></br>
+    </div>
+
+    <div id="project1" class="project-description" style="display: none;">
+        <h2>Project 1 Description</h2>
+        <p>Content about your Project 1 goes here...</p>
+	<div class="video-container">
+        <h2>Videos</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id1" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id2" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="certificate">
+        <h2 class="certificate-heading">Certificate</h2>
+        <img src="path/to/your/certificate.jpg" alt="Certificate">
+    </div>
+
+    </div>
+
+    <div id="project2" class="project-description" style="display: none;">
+        <h2>Project 2 Description</h2>
+        <p>Content about your Project 2 goes here...</p>
+<div class="video-container">
+        <h2>Videos</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id1" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id2" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="certificate">
+        <h2 class="certificate-heading">Certificate</h2>
+        <img src="path/to/your/certificate.jpg" alt="Certificate">
+    </div>
+    </div>
+
+    <div class="certificate">
+        <h2 class="certificate-heading">Certificate</h2>
+        <img src=" C:\Users\ELCOT\Pictures\certificates\certifi.pdf" alt="Certificate">
+    </div>
+
+    <script>
+        function showProject1() {
+            document.getElementById('project1').style.display = 'block';
+            document.getElementById('project2').style.display = 'none';
+        }
+
+        function showProject2() {
+            document.getElementById('project1').style.display = 'none';
+            document.getElementById('project2').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
+
+
